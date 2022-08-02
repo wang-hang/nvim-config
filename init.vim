@@ -31,6 +31,7 @@ inoremap <expr><S-TAB> coc#pum#visible() ? coc#pum#prev(1) : "\<C-h>"
 inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm()
                               \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
 
+" 回车选中自动补全
 inoremap <expr> <cr> coc#pum#visible() ? coc#_select_confirm() : "\<CR>"
 
 function! s:CheckBackspace() abort
@@ -55,10 +56,9 @@ nmap <leader>rn <Plug>(coc-rename)
 xmap <leader>f  <Plug>(coc-format-selected)
 nmap <leader>f  <Plug>(coc-format-selected)
 
-" 文件浏览器快捷键
-" nmap <C-b> <Cmd>CocCommand explorer<CR>
 
 
+" K 显示悬浮窗，例如文档，类型等
 function! ShowDocumentation()
   if CocAction('hasProvider', 'hover')
     call CocActionAsync('doHover')
@@ -66,8 +66,6 @@ function! ShowDocumentation()
     call feedkeys('K', 'in')
   endif
 endfunction
-
-" Use K to show documentation in preview window.
 nnoremap <silent> K :call ShowDocumentation()<CR>
 
 
