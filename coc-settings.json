@@ -3,7 +3,7 @@
   "suggest.noselect": true,
   "suggest.enablePreselect": false,
 
-  "codeLens.enable": true,
+  "codeLens.enable": false,
   "coc.preferences.formatOnSaveFiletypes": ["json", "javascript", "typescript"],
 
   "explorer.icon.enableNerdfont": false,
