@@ -69,3 +69,6 @@ endfunction
 nnoremap <silent> K :call ShowDocumentation()<CR>
 
 
+" 代码片段跳转上一个和下一个placeholder
+let g:coc_snippet_next = '<c-j>'
+let g:coc_snippet_prev = '<c-k>'
