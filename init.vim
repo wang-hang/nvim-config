@@ -48,6 +48,7 @@ nmap <silent> gr <Plug>(coc-references)
 " 跳转到上一个错误和下一个错误
 nmap <silent> <LEADER>p <Plug>(coc-diagnostic-prev)
 nmap <silent> <LEADER>n <Plug>(coc-diagnostic-next)
+nmap <silent> <LEADER>gc <Plug>(coc-git-commit)
 
 " Symbol renaming.
 nmap <leader>rn <Plug>(coc-rename)

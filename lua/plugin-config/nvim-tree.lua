@@ -19,8 +19,7 @@ nvim_tree.setup({ -- 显示 git状态图标
    -- 文件隐藏
    filters = {
       dotfiles = false,
-      --custom = {''},
-      custom = {'node_modules'},
+      custom = {},
    },
 
    view = {
