@@ -6,7 +6,7 @@
   "codeLens.enable": false,
   "coc.preferences.formatOnSaveFiletypes": ["json", "javascript", "typescript"],
 
-  "explorer.icon.enableNerdfont": false,
+  "explorer.icon.enableNerdfont": true,
   "explorer.openAction.strategy": "select",
 
   "git.enableGlobalStatus": true,

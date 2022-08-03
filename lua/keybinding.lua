@@ -53,7 +53,7 @@ map("n", "<leader>bh", ":BufferLineCloseLeft<CR>", opt)
 map("n", "<leader>bc", ":BufferLinePickClose<CR>", opt)
 
 -- 搜索文件
-map("n", "<C-p>", ":Telescope find_files<CR>", opt)
+map("n", "<C-p>", ":Telescope find_files hidden=true<CR>", opt)
 -- 全局搜索文字
 map("n", "<C-f>", ":Telescope live_grep<CR>", opt)
 

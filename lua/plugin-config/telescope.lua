@@ -10,6 +10,7 @@ telescope.setup({
     initial_mode = "insert",
     -- 窗口内快捷键
     mappings = require("keybinding").telescopeList,
+    file_ignore_patterns = {"node_modules", ".git/"}
   },
   pickers = {
     -- 内置 pickers 配置
