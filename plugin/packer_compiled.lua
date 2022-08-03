@@ -89,6 +89,11 @@ _G.packer_plugins = {
     path = "/Users/wanghang/.local/share/nvim/site/pack/packer/start/formatter.nvim",
     url = "https://github.com/mhartington/formatter.nvim"
   },
+  ["github-nvim-theme"] = {
+    loaded = true,
+    path = "/Users/wanghang/.local/share/nvim/site/pack/packer/start/github-nvim-theme",
+    url = "https://github.com/projekt0n/github-nvim-theme"
+  },
   ["indent-blankline.nvim"] = {
     loaded = true,
     path = "/Users/wanghang/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
