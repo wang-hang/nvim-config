@@ -9,6 +9,7 @@ packer.startup({
     use 'folke/tokyonight.nvim'
     use 'mhartington/oceanic-next'
     use 'projekt0n/github-nvim-theme'
+    use 'Mofiqul/vscode.nvim'
 
     use ({ "kyazdani42/nvim-tree.lua", requires = "kyazdani42/nvim-web-devicons" })
 

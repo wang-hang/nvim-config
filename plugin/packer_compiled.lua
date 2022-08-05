@@ -183,6 +183,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/wanghang/.local/share/nvim/site/pack/packer/start/vscode-es7-javascript-react-snippets",
     url = "https://github.com/dsznajder/vscode-es7-javascript-react-snippets"
+  },
+  ["vscode.nvim"] = {
+    loaded = true,
+    path = "/Users/wanghang/.local/share/nvim/site/pack/packer/start/vscode.nvim",
+    url = "https://github.com/Mofiqul/vscode.nvim"
   }
 }
 
