@@ -20,11 +20,6 @@ map("n", "<leader>sh", ":sp<CR>", opt)
 map("n", "<leader>sc", "<C-w>c", opt)
 -- 关闭其他窗口
 map("n", "<leader>so", "<C-w>o", opt)
--- 窗口跳转
---map("n", "<A-h>", "<C-w>h", opt)
---map("n", "<A-j>", "<C-w>j", opt)
---map("n", "<A-k>", "<C-w>k", opt)
---map("n", "<A-l>", "<C-w>l", opt)
 
 
 -- Terminal 相关

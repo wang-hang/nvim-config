@@ -28,8 +28,14 @@ packer.startup({
     use("glepnir/dashboard-nvim")
     use("ahmedkhalf/project.nvim")
 
+    --自动补齐括号
+    use("jiangmiao/auto-pairs")
+
     -- 语法高亮
     use({ "nvim-treesitter/nvim-treesitter", run = ":TSUpdate" })
+
+    -- 批量注释
+    use("tpope/vim-commentary")
 
   --------------------- LSP --------------------
     --use({ "williamboman/nvim-lsp-installer", commit = "36b44679f7cc73968dbb3b09246798a19f7c14e0" })

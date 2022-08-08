@@ -13,13 +13,14 @@ bufferline.setup({
     offsets = {
       {
         filetype = "NvimTree",
-        text = "File Explorer",
+        text = "资源管理器",
         highlight = "Directory",
         text_align = "left",
       },
     },
+    color_icons = true,
 
-    diagnostics = "nvim_lsp",
+    diagnostics = "coc",
     diagnostics_indicator = function(count, level, diagnostics_dict, context)
       local s = " "
       for e, n in pairs(diagnostics_dict) do
