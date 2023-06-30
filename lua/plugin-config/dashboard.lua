@@ -20,8 +20,8 @@ db.custom_center = {
   },
    {
      icon = "  ",
-     desc = "Edit .zshrc                         ",
-     action = "edit ~/.zshrc",
+     desc = "Edit Nvim                         ",
+     action = "edit ~/.config/nvim/init.vim",
    },
   {
     icon = "  ",

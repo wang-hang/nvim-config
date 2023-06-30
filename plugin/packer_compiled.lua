@@ -99,6 +99,11 @@ _G.packer_plugins = {
     path = "/Users/wanghang/.local/share/nvim/site/pack/packer/start/github-nvim-theme",
     url = "https://github.com/projekt0n/github-nvim-theme"
   },
+  ["hologram.nvim"] = {
+    loaded = true,
+    path = "/Users/wanghang/.local/share/nvim/site/pack/packer/start/hologram.nvim",
+    url = "https://github.com/edluffy/hologram.nvim"
+  },
   ["indent-blankline.nvim"] = {
     loaded = true,
     path = "/Users/wanghang/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
@@ -188,6 +193,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/wanghang/.local/share/nvim/site/pack/packer/start/vim-easymotion",
     url = "https://github.com/easymotion/vim-easymotion"
+  },
+  vimspector = {
+    loaded = true,
+    path = "/Users/wanghang/.local/share/nvim/site/pack/packer/start/vimspector",
+    url = "https://github.com/puremourning/vimspector"
   },
   ["vscode-es7-javascript-react-snippets"] = {
     loaded = true,

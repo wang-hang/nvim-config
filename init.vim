@@ -15,9 +15,13 @@ let g:coc_global_extensions = [
     \'coc-snippets',
     \ ]
 
-    ""\'coc-pairs',
-" super tab
+" vimspector 插件配置
+let g:vimspector_enable_mappings = "HUMAN"
+let g:vimspector_install_gadgets = [ 'vscode-node-debug2' ]
 
+let g:clipboard = "unamed"
+
+" super tab
 inoremap <silent><expr> <TAB>
       \ coc#pum#visible() ? coc#pum#next(1):
       \ <SID>CheckBackspace() ? "\<Tab>" :

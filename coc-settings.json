@@ -10,5 +10,6 @@
   "explorer.openAction.strategy": "select",
 
   "git.enableGlobalStatus": true,
-  "git.addGBlameToVirtualText": true
+  "git.addGBlameToVirtualText": true,
+  "snippets.ultisnips.pythonPrompt": false
 }

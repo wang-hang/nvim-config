@@ -73,6 +73,11 @@ packer.startup({
       run = 'yarn install --frozen-lockfile && yarn compile'
     }
 
+    use("puremourning/vimspector")
+
+    -- 图片预览
+    use("edluffy/hologram.nvim")
+
 
 end,
 

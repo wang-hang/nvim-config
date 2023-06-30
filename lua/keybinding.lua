@@ -65,7 +65,8 @@ pluginKeys.nvimTreeList = {
   { key = "h", action = "split" },
 
   -- 显示隐藏文件
-  { key = "i", action = "toggle_custom" },
+  -- { key = "i", action = "toggle_custom" },
+  { key = "i", action = "preview" },
   { key = ".", action = "toggle_dotfiles" },
   --- 文件操作
   { key = "<F5>", action = "refresh" },
